@@ -1,0 +1,126 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+}
+
+header {
+    background: #333;
+    padding: 10px 0;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+nav div img {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    margin-top:8px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.search-field {
+    display: flex;
+    align-items: center;
+}
+
+.search-field input[type="text"] {
+    background: #333;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.search-field button {
+    background: #fc0;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    color: #333;
+    padding: 10px 20px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 50px;
+}
+
+.hero-left-section h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero-left-section p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero-left-section span {
+    color: #fc0;
+}
+
+.hero-right-section {
+    text-align: center;
+}
+
+.hero-right-section img {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.hero-right-section button {
+    background: #fc0;
+    border: none;
+    border-radius: 20px;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
